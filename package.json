@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "dev:server": "ts-node-dev --inspect --transpileOnly --ignore-watch node_modules src/server.ts",
+    "dev:server:debug": "ts-node-dev --inspect --transpile-Only --ignore-watch node_modules src/server.ts",
+    "dev:server": "ts-node-dev  --transpile-Only --ignore-watch node_modules src/server.ts",
     "test": "jest"
   },
   "devDependencies": {
@@ -30,5 +31,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "uuidv4": "^6.0.7"
-  }
+  },
+  "repository": "https://github.com/joaov1tor/gostack-template-fundamentos-node.git",
+  "author": "João Vitor <joaovitor.ribeiro@outlook.com.br>"
 }
